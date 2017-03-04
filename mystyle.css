@@ -5,7 +5,7 @@ input {
 }
 input[type="text"] {
     font-size:18px;
-    font-family: "Comic Sans MS", papyrus, sans-serif;
+    font-family: "Comic Sans MS", ChalkboardSE-Regular, sans-serif;
     color: #395cc6;
 }
 
@@ -17,7 +17,7 @@ button {
 }
 body {
   background-color: #f9f906;
-  font-family: "Comic Sans MS", papyrus, sans-serif;
+  font-family: "Comic Sans MS", ChalkboardSE-Regular, sans-serif;
 }
 h1 {
   color: 	#395cc6;

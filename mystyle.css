@@ -44,8 +44,7 @@ option {
   margin-bottom: 20px;
 }
 #display {
-  background-color: white;
-  width: 25%;
+  font-size: 28px
 }
 .green {
   color: limegreen;

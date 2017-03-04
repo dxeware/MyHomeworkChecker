@@ -11,10 +11,10 @@ function findAnswer() {
        case '-':
         result = parseFloat(num1) - parseFloat(num2);
         break;
-       case 'x':
+       case '×':
         result = parseFloat(num1) * parseFloat(num2);
         break;
-       case '/':
+       case '÷':
         result = parseFloat(num1) / parseFloat(num2);
         break;
     }

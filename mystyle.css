@@ -20,11 +20,13 @@ body {
   font-family: "Comic Sans MS", papyrus, sans-serif;
 }
 h1 {
-  color: 	#395cc6
-}
-.container {
+  color: 	#395cc6;
   width: 400px;
   margin: 0 auto;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
 }
 select {
    background-color: aqua;

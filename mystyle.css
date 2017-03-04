@@ -1,5 +1,7 @@
 input {
     text-align: right;
+    width: 20%;
+    height: 25px;
 }
 
 button {
@@ -27,7 +29,15 @@ select {
 option {
    background-color: aqua;
 }
-#operator {
+#operator, #equal {
     font-size: 33px;
     color: #395cc6
+}
+.equation {
+  margin-bottom: 20px;
+}
+#display {
+  background-color: white;
+  color: red;
+  width: 25%;
 }

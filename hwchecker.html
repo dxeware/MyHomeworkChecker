@@ -16,15 +16,15 @@
         <option value="x">Multiplication</option>
         <option value="/">Division</option>
       </select>
-      <br/>
 
-      <input type="text" id="num1" />
-      <p id="operator">+</p>
-      <input type="text" id="num2" />
-      <p id="equal">=</p>
-      <input type="text" id="answer" />
-      <br />
-      <br/>
+      <div class="equation">
+      <input type="text" placeholder="number 1" id="num1" />
+      <span id="operator">+</span>
+      <input type="text" placeholder="number 2" id="num2" />
+      <span id="equal">=</span>
+      <input type="text" placeholder="your answer" id="answer" />
+    </div>
+
       <button onclick="findAnswer()">Check</button>
 
       <p id="display"></p>

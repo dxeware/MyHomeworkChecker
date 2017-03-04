@@ -20,8 +20,10 @@ function findAnswer() {
     }
     if (parseFloat(answer) === result) {
       display = 'CORRECT';
+      document.getElementById("display").setAttribute("class", "green");
     } else {
       display = 'INCORRECT';
+      document.getElementById("display").setAttribute("class", "red");
     }
     document.getElementById("display").innerHTML = display;
 }

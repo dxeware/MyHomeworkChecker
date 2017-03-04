@@ -1,23 +1,29 @@
 function findAnswer() {
-    var result;
-    var a = document.getElementById("num1").value;
-    var b = document.getElementById("num2").value;
+    var result, display;
+    var num1 = document.getElementById("num1").value;
+    var num2 = document.getElementById("num2").value;
     var operator = document.getElementById("operator").innerHTML;
+    var answer = document.getElementById("answer").value;
     switch (operator) {
       case '+':
-        result = parseFloat(a) + parseFloat(b);
+        result = parseFloat(num1) + parseFloat(num2);
         break;
        case '-':
-        result = parseFloat(a) - parseFloat(b);
+        result = parseFloat(num1) - parseFloat(num2);
         break;
        case 'x':
-        result = parseFloat(a) * parseFloat(b);
+        result = parseFloat(num1) * parseFloat(num2);
         break;
        case '/':
-        result = parseFloat(a) / parseFloat(b);
+        result = parseFloat(num1) / parseFloat(num2);
         break;
     }
-    document.getElementById("result").innerHTML = result
+    if (parseFloat(answer) === result) {
+      display = 'CORRECT';
+    } else {
+      display = 'INCORRECT';
+    }
+    document.getElementById("display").innerHTML = display;
 }
 
 function changeOperator() {

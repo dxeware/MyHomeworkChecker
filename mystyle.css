@@ -1,0 +1,33 @@
+input {
+    text-align: right;
+}
+
+button {
+  background-color: aqua;
+  color: navy;
+  font-size: 18px;
+  border-radius: 12px;
+}
+body {
+  background-color: #f9f906;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  color: 	#395cc6
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+select {
+   background-color: aqua;
+   height: 24px;
+   font-size: 18px;
+}
+option {
+   background-color: aqua;
+}
+#operator {
+    font-size: 33px;
+    color: #395cc6
+}

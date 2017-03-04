@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Homework Checker</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" >
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+      <div class="container">
+      <h1>My Homework Checker</h1>
+      <select onchange="changeOperator()" name="list" id="list">
+        <option value="+">Addition</option>
+        <option value="-">Subtraction</option>
+        <option value="x">Multiplication</option>
+        <option value="/">Division</option>
+      </select>
+      <br/>
+
+      <input type="text" id="num1" />
+      <p id="operator">+</p>
+      <input type="text" id="num2" />
+      <br />
+      <br/>
+      <button onclick="findAnswer()">Check</button>
+
+      <p id="result"></p>
+    </div>
+    </body>
+</html>
